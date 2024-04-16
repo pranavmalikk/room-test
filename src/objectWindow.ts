@@ -75,14 +75,14 @@ let crossSlatBrush = evaluator.evaluate(horizontalSlatBrush, verticalSlatBrush, 
 const leftSlatBrush = new Brush(
   new RoundedBoxGeometry(
     slatWidth,
-    13.4,
+    10.6,
     slatWidth,
     floorAndWalls.roundSegments,
     floorAndWalls.roundRadius / 2,
   ),
   windowFrameMaterial,
 )
-leftSlatBrush.position.set(-8.2, 4.6, 0)
+leftSlatBrush.position.set(-8.2, 2.8, 0)
 leftSlatBrush.updateMatrixWorld()
 
 crossSlatBrush = evaluator.evaluate(crossSlatBrush, leftSlatBrush, ADDITION)
@@ -90,14 +90,14 @@ crossSlatBrush = evaluator.evaluate(crossSlatBrush, leftSlatBrush, ADDITION)
 const rightSlatBrush = new Brush(
   new RoundedBoxGeometry(
     slatWidth,
-    13.4,
+    10.6,
     slatWidth,
     floorAndWalls.roundSegments,
     floorAndWalls.roundRadius / 2,
   ),
   windowFrameMaterial,
 )
-rightSlatBrush.position.set(8.2, 4.6, 0)
+rightSlatBrush.position.set(8.2, 2.8, 0)
 rightSlatBrush.updateMatrixWorld()
 
 crossSlatBrush = evaluator.evaluate(crossSlatBrush, rightSlatBrush, ADDITION)
