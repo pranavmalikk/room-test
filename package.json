@@ -1,0 +1,48 @@
+{
+  "name": "vite-r3f-ts-template",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^3.10.1",
+    "@gltf-transform/extensions": "^3.10.1",
+    "@react-three/drei": "^9.99.7",
+    "@react-three/fiber": "^8.15.19",
+    "@types/lodash": "^4.17.0",
+    "copy-to-clipboard": "^3.3.3",
+    "leva": "^0.9.35",
+    "lodash": "^4.17.21",
+    "postprocessing": "^6.35.1",
+    "r3f-perf": "^7.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "realism-effects": "^1.1.2",
+    "three": "^0.160.1",
+    "three-bvh-csg": "^0.0.16",
+    "tsx": "^4.7.2",
+    "tweakpane": "^4.0.3"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.3",
+    "@types/node": "^20.12.5",
+    "@types/react": "^18.2.62",
+    "@types/react-dom": "^18.2.19",
+    "@types/three": "*",
+    "@vitejs/plugin-react": "^4.2.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 90,
+    "jsxSingleQuote": true
+  }
+}
